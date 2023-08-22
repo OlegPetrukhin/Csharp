@@ -7,12 +7,12 @@ Console.WriteLine("Введите Число N: ");
 
 int numberN = Convert.ToInt32(Console.ReadLine());
 double result = 0;
-if (numberN <0)
+if (numberN < 0)
 {
-    numberN = numberN*(-1);
+    numberN = numberN * (-1);
 }
-for ( int i = 1; i <= numberN; i++)
+for (int i = 1; i <= numberN; i++)
 {
-result = Math.Pow(i,2) ;
-    Console.WriteLine (result);
+    result = Math.Pow(i, 2);
+    Console.WriteLine(result);
 }
